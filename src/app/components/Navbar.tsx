@@ -36,7 +36,7 @@ export default function Navbar() {
           }
         }
       },
-      { rootMargin: "-40% 0px -55% 0px" }
+      { rootMargin: "-10% 0px -80% 0px" }
     );
 
     sections.forEach((s) => s && observer.observe(s));
@@ -66,6 +66,7 @@ export default function Navbar() {
             <a
               key={link.href}
               href={link.href}
+              onClick={() => setActiveSection(link.href)}
               className={`text-sm transition-colors ${
                 activeSection === link.href
                   ? "text-ember-400"
