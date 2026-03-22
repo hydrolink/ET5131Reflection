@@ -110,9 +110,9 @@ export const siteContent: SiteContent = {
         title: "Group Project: Pitching a Real Idea",
         icon: "\uD83D\uDCA1", // lightbulb
         summary:
-          "Week 6 required the team to present a fully developed concept to the class, potential investors, and collaborators, turning weeks of thinking into a live pitch.",
+          "Week 6 required the team to present a fully developed concept to the class and collaborators, turning weeks of thinking into a live pitch.",
         reflectionPoints: [
-          "Applied systems thinking and circular economy principles to a tangible product concept",
+          "I applied systems thinking and circular economy principles to a tangible product concept",
           "Learned that a compelling pitch is not about confidence; it is about clarity",
         ],
       },
@@ -122,12 +122,12 @@ export const siteContent: SiteContent = {
   authenticity: {
     heading: "Authenticity & Self-Discovery",
     intro:
-      "The assignment asked how this experience changed my mindset, knowledge, and skills. Here is my honest answer.",
+      "The assignment asked how this experience changed my mindset, knowledge, and skills. This is my honest answer.",
     reflections: [
       {
         title: "Mindset",
         content:
-          "I came in thinking entrepreneurship was a personality trait, something you either had or you did not. What shifted was understanding that it is a practice: problem analysis, tolerating uncertainty, staying curious when things stop working. The fireside chats were the most effective vehicle for this. Hearing practitioners describe pivoting and failing in detail made the mindset shift feel achievable, not just aspirational.",
+          "I came in thinking entrepreneurship was a personality trait, something you either had or you did not. What shifted was understanding that it is a practice: problem analysis, tolerating uncertainty, staying curious when things stop working. The fireside chats were the most effective vehicle for this. Hearing entrepreneurs describe pivoting and failing in detail made the mindset shift feel achievable, not just aspirational.",
         quote:
           "The idea is just the beginning. What you do when it stops working is the real test.",
       },
