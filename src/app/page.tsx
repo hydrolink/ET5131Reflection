@@ -15,23 +15,23 @@ export default function Home() {
       <main>
         <HeroSection />
 
-        <SectionWrapper id="about">
+        <SectionWrapper id="about" maxWidth="max-w-6xl">
           <AboutSection />
         </SectionWrapper>
 
-        <SectionWrapper id="efforts">
+        <SectionWrapper id="efforts" maxWidth="max-w-6xl">
           <EffortsSection />
         </SectionWrapper>
 
-        <SectionWrapper id="authenticity">
+        <SectionWrapper id="authenticity" maxWidth="max-w-6xl">
           <AuthenticitySection />
         </SectionWrapper>
 
-        <SectionWrapper id="takeaways">
+        <SectionWrapper id="takeaways" maxWidth="max-w-6xl">
           <TakeawaysSection />
         </SectionWrapper>
 
-        <SectionWrapper id="timeline">
+        <SectionWrapper id="timeline" maxWidth="max-w-6xl">
           <TimelineSection />
         </SectionWrapper>
       </main>

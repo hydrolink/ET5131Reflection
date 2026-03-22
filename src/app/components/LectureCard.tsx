@@ -6,17 +6,17 @@ interface LectureCardProps {
 
 export default function LectureCard({ lecture }: LectureCardProps) {
   return (
-    <article className="bg-night-800 rounded-2xl p-6 border border-night-700 hover:border-ember-500/30 transition-all duration-300 hover:shadow-[0_0_24px_rgba(249,115,22,0.08)]">
+    <article className="bg-night-800 rounded-2xl p-4 border border-night-700 hover:border-ember-500/30 transition-all duration-300 hover:shadow-[0_0_24px_rgba(249,115,22,0.08)]">
       {/* Icon */}
-      <div className="text-3xl mb-4">{lecture.icon}</div>
+      <div className="text-2xl mb-3">{lecture.icon}</div>
 
       {/* Title */}
-      <h3 className="font-heading text-xl font-semibold text-warmwhite mb-3">
+      <h3 className="font-heading text-base font-semibold text-warmwhite mb-2">
         {lecture.title}
       </h3>
 
       {/* Summary */}
-      <p className="text-warmgray text-sm leading-relaxed mb-4">
+      <p className="text-warmgray text-xs leading-relaxed mb-3">
         {lecture.summary}
       </p>
 
@@ -25,7 +25,7 @@ export default function LectureCard({ lecture }: LectureCardProps) {
         {lecture.reflectionPoints.map((point, i) => (
           <li
             key={i}
-            className="flex items-start gap-2 text-sm text-warmgray-dark"
+            className="flex items-start gap-2 text-xs text-warmgray-dark"
           >
             <span className="text-ember-500 mt-1 flex-shrink-0">&#x2022;</span>
             <span>{point}</span>

@@ -6,12 +6,14 @@ interface SectionWrapperProps {
   id: string;
   children: React.ReactNode;
   className?: string;
+  maxWidth?: string;
 }
 
 export default function SectionWrapper({
   id,
   children,
   className = "",
+  maxWidth = "max-w-4xl",
 }: SectionWrapperProps) {
   const ref = useRef<HTMLElement>(null);
   const [isVisible, setIsVisible] = useState(false);
@@ -38,7 +40,7 @@ export default function SectionWrapper({
     <section
       ref={ref}
       id={id}
-      className={`py-12 px-6 max-w-4xl mx-auto transition-all duration-700 ${
+      className={`py-12 px-6 ${maxWidth} mx-auto transition-all duration-700 ${
         isVisible
           ? "opacity-100 translate-y-0"
           : "opacity-0 translate-y-6"
