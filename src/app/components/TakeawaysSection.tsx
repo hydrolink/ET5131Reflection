@@ -31,7 +31,7 @@ export default function TakeawaysSection() {
 
       {/* Closing quote */}
       {closingQuote && (
-        <blockquote className="border-l-2 border-ember-500 pl-5 py-2 max-w-xl">
+        <blockquote className="border-l-2 border-ember-500 pl-5 py-2">
           <p className="font-heading italic text-ember-300/80 text-sm leading-relaxed">
             &ldquo;{closingQuote}&rdquo;
           </p>

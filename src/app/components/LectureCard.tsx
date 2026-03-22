@@ -25,9 +25,9 @@ export default function LectureCard({ lecture }: LectureCardProps) {
         {lecture.reflectionPoints.map((point, i) => (
           <li
             key={i}
-            className="flex items-start gap-2 text-xs text-warmgray-dark"
+            className="flex items-start gap-2 text-xs text-warmgray"
           >
-            <span className="text-ember-500 mt-1 flex-shrink-0">&#x2022;</span>
+            <span className="text-warmwhite mt-1 flex-shrink-0">&#x2022;</span>
             <span>{point}</span>
           </li>
         ))}

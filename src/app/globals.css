@@ -21,7 +21,7 @@
   --color-warmgray-dark: #8B7D6B;
 
   /* Font families */
-  --font-sans: var(--font-inter);
+  --font-sans: var(--font-lora);
   --font-heading: var(--font-lora);
 
   /* Animations */
