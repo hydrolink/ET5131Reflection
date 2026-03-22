@@ -1,0 +1,28 @@
+# Dependencies
+node_modules
+/.pnp
+.pnp.js
+
+# Build
+/.next
+/out
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug
+npm-debug.log*
+
+# Local env
+.env*.local
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Lecture PDFs (too large for git)
+*.pdf
