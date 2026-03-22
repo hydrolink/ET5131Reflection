@@ -16,7 +16,7 @@ export default function LectureCard({ lecture }: LectureCardProps) {
       </h3>
 
       {/* Summary */}
-      <p className="text-warmgray text-xs leading-relaxed mb-3">
+      <p className="text-warmgray text-sm leading-relaxed mb-3">
         {lecture.summary}
       </p>
 

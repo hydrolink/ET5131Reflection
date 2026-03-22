@@ -10,7 +10,7 @@ export default function AboutSection() {
       </h2>
       <div className="space-y-5">
         {paragraphs.map((paragraph, i) => (
-          <p key={i} className="text-warmgray leading-relaxed text-base sm:text-lg">
+          <p key={i} className="text-warmgray leading-relaxed text-sm sm:text-base">
             {paragraph}
           </p>
         ))}

@@ -17,7 +17,7 @@ export default function TakeawaysSection() {
             <span className="flex-shrink-0 w-8 h-8 rounded-full bg-ember-500/15 border border-ember-500/30 flex items-center justify-center text-ember-400 text-sm font-medium">
               {i + 1}
             </span>
-            <p className="text-warmgray leading-relaxed text-base pt-1">
+            <p className="text-warmgray leading-relaxed text-sm sm:text-base pt-1">
               {insight}
             </p>
           </div>
@@ -25,14 +25,14 @@ export default function TakeawaysSection() {
       </div>
 
       {/* Closing paragraph */}
-      <p className="text-warmgray leading-relaxed text-base sm:text-lg mb-8">
+      <p className="text-warmgray leading-relaxed text-sm sm:text-base mb-8">
         {closingParagraph}
       </p>
 
       {/* Closing quote */}
       {closingQuote && (
         <blockquote className="border-l-2 border-ember-500 pl-5 py-2 max-w-xl">
-          <p className="font-heading italic text-ember-300/80 text-base sm:text-lg leading-relaxed">
+          <p className="font-heading italic text-ember-300/80 text-sm leading-relaxed">
             &ldquo;{closingQuote}&rdquo;
           </p>
         </blockquote>

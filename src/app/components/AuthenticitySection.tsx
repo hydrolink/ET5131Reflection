@@ -9,7 +9,7 @@ export default function AuthenticitySection() {
       <h2 className="font-heading text-3xl sm:text-4xl font-semibold text-warmwhite mb-4">
         {heading}
       </h2>
-      <p className="text-warmgray leading-relaxed text-base sm:text-lg mb-10">
+      <p className="text-warmgray leading-relaxed text-sm sm:text-base mb-10">
         {intro}
       </p>
 
