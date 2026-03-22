@@ -185,13 +185,13 @@ export const siteContent: SiteContent = {
         date: "Week 6",
         title: "The Pitch",
         content:
-          "Standing up and presenting something we built from scratch was uncomfortable in the best way. Investor feedback sharpened how I communicate ideas under pressure.",
+          "Standing up and presenting something we built from scratch was uncomfortable in the best way. Prof's feedback sharpened how I communicate ideas under pressure.",
       },
       {
         date: "Week 9-10",
         title: "Proposal & Reflection",
         content:
-          "Writing this forced me to slow down and be honest about what actually changed, not just what I learned on paper.",
+          "Writing the executive summary and personal reflection forced me to slow down and be honest about what actually changed, not just what I learned on paper.",
       },
     ],
   },
