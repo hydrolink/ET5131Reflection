@@ -8,7 +8,9 @@
       "Bash(yes)",
       "Bash(npx create-next-app@latest et5131-reflection --typescript --tailwind --app --src-dir --eslint --no-turbopack --use-npm --import-alias \"@/*\")",
       "Bash(npm run:*)",
-      "Bash(timeout 15 npx next dev --port 3000)"
+      "Bash(timeout 15 npx next dev --port 3000)",
+      "Bash(node -e \":*)",
+      "WebFetch(domain:bugboomjournal.vercel.app)"
     ],
     "additionalDirectories": [
       "C:\\Users\\Dreamcore\\Desktop\\et5131-reflection"

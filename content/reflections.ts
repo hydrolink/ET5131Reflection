@@ -55,11 +55,6 @@ export interface SiteContent {
   };
 }
 
-// ============================================================
-// TODO: Replace all placeholder text below with your own
-// reflections. The structure is ready, just fill in your words.
-// ============================================================
-
 export const siteContent: SiteContent = {
   hero: {
     heading: "Ray'En's Reflections",
@@ -70,91 +65,73 @@ export const siteContent: SiteContent = {
   about: {
     heading: "About This Reflection",
     paragraphs: [
-      // TODO: Replace with your own description of the assignment's purpose
-      "This space is a personal reflection on my journey through ET5131: Venturing into Entrepreneurship. It is not just a summary of what was taught, but a window into how those lessons shaped my thinking, challenged my assumptions, and helped me discover parts of myself I had not fully explored.",
+      "This is my personal reflection on six weeks inside ET5131: Venturing into Entrepreneurship, guided by Prof. Lerwen Liu and her ecosystem of collaborators. The course moved fast, covered a lot of ground, and asked more of me than I expected, not just intellectually, but personally.",
 
-      // TODO: Replace with your own framing of the reflection journey
-      "Through each lecture, discussion, and exercise, I found myself returning to the same question: who am I becoming through this process? This website is my attempt to answer that question honestly, to sit by the fire, look back on the path walked, and share what I have found.",
-
-      // TODO: Add more paragraphs as needed
-      "The sections that follow trace two threads: the depth and comprehensiveness with which I engaged the course material, and the authentic self-discovery that emerged along the way.",
+      "From zoom fireside chats in the early weeks to pitching a live product concept by Week 6, the experience challenged how I think, what I value, and how I show up in a team. This reflection is my attempt to make sense of all of it honestly.",
     ],
   },
 
   efforts: {
     heading: "Efforts & Comprehensiveness",
-    // TODO: Replace with your own introduction to your efforts
     intro:
-      "Each lecture offered a new lens through which to view entrepreneurship. Below are the key topics I engaged with, along with reflections on how I applied and internalized the material.",
+      "The course covered three distinct areas of learning, each building on the last. Here is how I engaged with each and what shifted as a result.",
     lectures: [
       {
-        // TODO: Replace with your actual reflection on this lecture topic
         title: "Entrepreneurship Framework",
         icon: "\uD83E\uDDED", // compass
         summary:
-          "Understanding the foundational frameworks that guide entrepreneurial thinking, from opportunity recognition to value creation and business model design.",
+          "Weeks 2 and 3 introduced the foundational thinking behind entrepreneurship, through lectures and fireside chats held over Zoom with practitioners who had walked the path themselves.",
         reflectionPoints: [
-          "Explored how entrepreneurial mindsets differ from traditional business thinking",
-          "Reflected on the balance between planning and adaptive execution",
-          "Connected framework concepts to real-world startup examples discussed in class",
+          "Learned to reframe problems as opportunities rather than obstacles",
+          "Fireside chats showed that real entrepreneurship is rarely linear or glamorous",
         ],
       },
       {
-        // TODO: Replace with your actual reflection on this lecture topic
-        title: "Circular Economy",
+        title: "BugBoom: Purpose-Driven Entrepreneurship",
+        icon: "\uD83D\uDC1B", // bug
+        summary:
+          "Week 4 took us into the world of BugBoom, an exploration of purpose-driven entrepreneurship that pushed the group to think beyond profit and ask why a business should exist.",
+        reflectionPoints: [
+          "Examined what it means to build something with genuine social purpose",
+          "Challenged the group to connect personal values to entrepreneurial direction",
+        ],
+      },
+      {
+        title: "Circular Economy & Cultural Intelligence",
         icon: "\u267B\uFE0F", // recycle
         summary:
-          "Examining how sustainability and circular business models are reshaping the way we think about resources, waste, and long-term value creation.",
+          "Week 5 brought together two powerful lenses: how circular systems can replace wasteful ones, and how cultural awareness shapes the way we collaborate and lead.",
         reflectionPoints: [
-          "Analyzed the shift from linear to circular business models",
-          "Considered how circular economy principles apply to innovation and product design",
-          "Reflected on the ethical responsibility entrepreneurs have toward sustainability",
+          "Understood how circular economy principles can be embedded into product design",
+          "Recognized the role cultural intelligence plays in diverse team dynamics",
         ],
       },
-      {
-        // TODO: Replace with your actual reflection on this lecture topic
-        title: "Cultural Intelligence",
-        icon: "\uD83C\uDF0D", // globe
-        summary:
-          "Developing the ability to navigate, understand, and work effectively across different cultural contexts, a vital skill for global entrepreneurship.",
-        reflectionPoints: [
-          "Assessed my own cultural awareness and areas for growth",
-          "Explored how cultural intelligence influences team dynamics and leadership",
-          "Connected lessons to personal experiences in multicultural environments",
-        ],
-      },
-
-      // TODO: Add more lecture reflections as needed by copying the pattern above
     ],
   },
 
   authenticity: {
     heading: "Authenticity & Self-Discovery",
-    // TODO: Replace with your own introduction
     intro:
-      "Beyond the academic content, this course became a mirror, reflecting back parts of myself I had not fully examined. These are the honest reflections that emerged.",
+      "The course gave me frameworks to think with, but it also gave me something harder to quantify: a clearer sense of who I am when things get difficult.",
     reflections: [
       {
-        // TODO: Replace with your own personal reflection
-        title: "Personal Growth",
+        title: "Mindset Shift",
         content:
-          "This course challenged me to step outside my comfort zone. I learned that entrepreneurship is not just about business; it is about understanding yourself well enough to lead others. The group discussions, the failures in ideation, and the moments of clarity all contributed to a version of me that is more resilient and more self-aware.",
+          "Coming in, I thought entrepreneurship was about having the right idea. By Week 3, I understood it is really about having the right mindset. The fireside chats made this concrete. Every speaker described uncertainty, pivoting, and learning through failure. That reframe changed how I approached everything that followed, including the group project.",
         quote:
-          "Growth does not happen in the comfort zone. It happens in the space between who you are and who you are becoming.",
+          "The idea is just the beginning. What you do when it stops working is the real test.",
       },
       {
-        // TODO: Replace with your own personal reflection
-        title: "Values & Emotions",
+        title: "Knowledge in Action",
         content:
-          "I came into this course with assumptions about what matters in business: efficiency, profit, speed. But through the lectures on circular economy and cultural intelligence, I started to question those assumptions. I realized that my values around empathy, sustainability, and connection are not weaknesses in business; they are strengths that define the kind of entrepreneur I want to be.",
-        quote:
-          "Your values are not separate from your work; they are the foundation of it.",
+          "Working on a circular economy concept for our group project made the Week 5 content deeply practical. We were not just studying sustainability, we were trying to design around it. The process of moving from a classroom idea to something we could actually pitch sharpened my understanding of how knowledge needs to connect to real-world constraints to mean anything.",
       },
       {
-        // TODO: Replace with your own personal reflection
-        title: "Honest Reflection",
+        title: "Skills Through Friction",
         content:
-          "If I am being honest, there were moments I felt lost. Moments where the frameworks did not click, where group dynamics were frustrating, where I questioned whether entrepreneurship was even for me. But looking back, those moments of doubt were the most valuable. They forced me to dig deeper, ask better questions, and ultimately arrive at a more grounded understanding of both the subject and myself.",
+          "The team had genuine disagreements and scheduling challenges throughout. Rather than seeing this as a failure of teamwork, I now see it as where the real skill-building happened. I learned to communicate more directly, listen more carefully, and hold my ground without closing off other perspectives. Those are skills no lecture could have given me.",
+        quote:
+          "Collaboration is not the absence of conflict. It is what you build through it.",
       },
     ],
   },
@@ -162,16 +139,13 @@ export const siteContent: SiteContent = {
   takeaways: {
     heading: "Key Takeaways",
     insights: [
-      // TODO: Replace with your own key insights
-      "Entrepreneurship is as much about self-awareness as it is about market awareness.",
-      "Sustainability is not a constraint; it is a creative challenge that leads to better solutions.",
-      "Cultural intelligence is a skill that must be practiced, not just studied.",
-      "Failure in a safe environment is one of the most powerful learning tools available.",
-      "The best ideas come from the intersection of personal values and real-world problems.",
+      "Entrepreneurial mindset is a daily practice, not a personality type.",
+      "Sustainability is most powerful when it is built into the product, not added on top.",
+      "Cultural intelligence determines how well a team thinks, not just how well it gets along.",
+      "The most valuable learning in this course came from the moments of friction and uncertainty.",
     ],
-    // TODO: Replace with your own closing paragraph
     closingParagraph:
-      "This journey through ET5131 has been more than an academic exercise. It has been a process of uncovering what I truly care about, understanding my strengths and blind spots, and building the confidence to pursue ideas that align with who I am. As I move forward, I carry these reflections with me, not as conclusions, but as starting points for the next chapter.",
+      "ET5131 reshaped how I think, what I know, and how I work with others. The six weeks were short but dense, and I leave with a clearer sense of the kind of entrepreneur I want to be: one who builds with purpose, leads with empathy, and stays curious when things get hard.",
     closingQuote:
       "The fire does not ask where the smoke goes. It simply burns, and in burning, it lights the way.",
   },
@@ -179,36 +153,35 @@ export const siteContent: SiteContent = {
   timeline: {
     heading: "Reflection Journal",
     entries: [
-      // TODO: Replace with your own timeline entries
       {
-        date: "Week 1-2",
-        title: "First Impressions",
+        date: "Week 2-3",
+        title: "Frameworks & Fireside Chats",
         content:
-          "Entered the course with curiosity and a bit of uncertainty. The entrepreneurship framework lecture set the stage, helping me understand that entrepreneurship is a mindset, not just a career path.",
+          "Introduced to the entrepreneurship framework through lectures and Zoom fireside chats with practitioners. The conversations grounded the theory in lived experience early on.",
       },
       {
-        date: "Week 3-4",
-        title: "Diving Deeper",
+        date: "Week 4",
+        title: "BugBoom: Finding Purpose",
         content:
-          "The circular economy sessions challenged my thinking about waste and value. I began to see how sustainability could be a driver of innovation rather than a limitation.",
+          "The BugBoom session pushed us to explore purpose-driven entrepreneurship, asking what problem we actually care about solving and why that matters beyond commercial gain.",
       },
       {
-        date: "Week 5-6",
-        title: "Cultural Awakening",
+        date: "Week 5",
+        title: "Circular Economy & Cultural Intelligence",
         content:
-          "Cultural intelligence brought a new dimension to my understanding. I realized how much my own cultural background shapes the way I approach problems and collaborate with others.",
+          "Two frameworks in one week: how to design out waste through circular thinking, and how cultural intelligence shapes the way we collaborate across difference.",
       },
       {
-        date: "Week 7-8",
-        title: "Pulling It Together",
+        date: "Week 6",
+        title: "The Pitch",
         content:
-          "As the course progressed, the threads began to weave together. I started to see connections between frameworks, sustainability, and cultural awareness, and how they all inform the kind of entrepreneur I aspire to be.",
+          "Presented our group concept to the class, potential partners, and investors. Turning weeks of ideas into a live pitch was the most pressure-filled and rewarding moment of the course.",
       },
       {
         date: "Week 9-10",
-        title: "Looking Forward",
+        title: "Proposal & Reflection",
         content:
-          "The final weeks were about integration and reflection. I spent time journaling, revisiting key concepts, and asking myself what I want to carry forward from this experience.",
+          "Submitted the group proposal and completed this individual reflection. Looking back, the journey covered more ground than I expected, both in the subject and in myself.",
       },
     ],
   },

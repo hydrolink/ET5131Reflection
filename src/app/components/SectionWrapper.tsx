@@ -38,7 +38,7 @@ export default function SectionWrapper({
     <section
       ref={ref}
       id={id}
-      className={`py-20 px-6 max-w-4xl mx-auto transition-all duration-700 ${
+      className={`py-12 px-6 max-w-4xl mx-auto transition-all duration-700 ${
         isVisible
           ? "opacity-100 translate-y-0"
           : "opacity-0 translate-y-6"
