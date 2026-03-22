@@ -26,3 +26,5 @@ next-env.d.ts
 
 # Lecture PDFs (too large for git)
 *.pdf
+
+.vercel

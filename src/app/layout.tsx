@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Lora } from "next/font/google";
 import "./globals.css";
+import AudioPlayer from "./components/AudioPlayer";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -28,7 +29,10 @@ export default function RootLayout({
       lang="en"
       className={`${inter.variable} ${lora.variable} h-full antialiased`}
     >
-      <body className="min-h-full font-sans">{children}</body>
+      <body className="min-h-full font-sans">
+        <AudioPlayer />
+        {children}
+      </body>
     </html>
   );
 }
