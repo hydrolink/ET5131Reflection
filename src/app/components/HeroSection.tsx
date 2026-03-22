@@ -6,7 +6,7 @@ import EmberParticles from "./EmberParticles";
 import CampfireGlow from "./CampfireGlow";
 
 export default function HeroSection() {
-  const { heading, subtitle, ctaText } = siteContent.hero;
+  const { heading, subtitle } = siteContent.hero;
   const sectionRef = useRef<HTMLElement>(null);
   const videoRef = useRef<HTMLVideoElement>(null);
 
@@ -57,11 +57,6 @@ export default function HeroSection() {
 
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center text-center max-w-2xl mx-auto space-y-8">
-        {/* Decorative campfire icon */}
-        <div className="text-5xl sm:text-6xl mb-2 motion-safe:animate-glow-pulse rounded-full">
-          {"\uD83D\uDD25"}
-        </div>
-
         {/* Heading */}
         <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl font-semibold text-warmwhite leading-tight tracking-tight drop-shadow-lg">
           {heading}
@@ -69,26 +64,17 @@ export default function HeroSection() {
 
         {/* Subtitle */}
         <p className="text-warmgray text-lg sm:text-xl max-w-lg leading-relaxed drop-shadow">
-          {subtitle}
+          {subtitle.split("\n").map((line, i, arr) => (
+            <span key={i}>{line}{i < arr.length - 1 && <br />}</span>
+          ))}
         </p>
 
-        {/* CTA Button */}
+        {/* CTA link */}
         <a
           href="#about"
-          className="inline-flex items-center gap-2 mt-4 px-8 py-3.5 rounded-full bg-ember-500/15 border border-ember-500/30 text-ember-300 hover:bg-ember-500/25 hover:border-ember-500/50 hover:text-ember-200 transition-all duration-300 text-sm sm:text-base font-medium"
+          className="text-ember-300 hover:text-ember-200 transition-colors text-sm sm:text-base font-medium"
         >
-          {ctaText}
-          <svg
-            width="16"
-            height="16"
-            viewBox="0 0 16 16"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-          >
-            <path d="M8 3v10M4 9l4 4 4-4" />
-          </svg>
+          Begin reflection
         </a>
       </div>
 
