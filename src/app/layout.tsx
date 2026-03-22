@@ -14,9 +14,9 @@ const lora = Lora({
 });
 
 export const metadata: Metadata = {
-  title: "Reflections by the Fire — ET5131",
+  title: "Reflections by the Fire ET5131",
   description:
-    "A reflective journey through ET5131 Entrepreneurship & Innovation. A calm, introspective space for personal growth and self-discovery.",
+    "A reflective journey through ET5131 Venturing into Entrepreneurship. A calm, introspective space for personal growth and self-discovery.",
 };
 
 export default function RootLayout({
