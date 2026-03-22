@@ -1,18 +1,33 @@
 "use client";
 
-import { useMemo } from "react";
+import { useEffect, useState } from "react";
+
+interface Particle {
+  id: number;
+  left: string;
+  width: string;
+  animationDuration: string;
+  animationDelay: string;
+  opacity: number;
+}
 
 export default function EmberParticles() {
-  const particles = useMemo(() => {
-    return Array.from({ length: 22 }, (_, i) => ({
-      id: i,
-      left: `${10 + Math.random() * 80}%`,
-      width: `${2 + Math.random() * 4}px`,
-      animationDuration: `${4 + Math.random() * 6}s`,
-      animationDelay: `${Math.random() * 8}s`,
-      opacity: 0.3 + Math.random() * 0.5,
-    }));
+  const [particles, setParticles] = useState<Particle[]>([]);
+
+  useEffect(() => {
+    setParticles(
+      Array.from({ length: 22 }, (_, i) => ({
+        id: i,
+        left: `${10 + Math.random() * 80}%`,
+        width: `${2 + Math.random() * 4}px`,
+        animationDuration: `${4 + Math.random() * 6}s`,
+        animationDelay: `${Math.random() * 8}s`,
+        opacity: 0.3 + Math.random() * 0.5,
+      }))
+    );
   }, []);
+
+  if (particles.length === 0) return null;
 
   return (
     <div
